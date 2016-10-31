@@ -12,10 +12,13 @@ namespace Chatter.Models
         public int ID { get; set; }
         public string Messages { get; set; }
         public ICollection<Message> Entry { get; set; }
-        string Time = Timestamp(DateTime.Now);
-        public static string Timestamp(DateTime value)
-        {
-            return value.ToString("YYMMDDHHmmss");
-        }
-}
+        public DateTime timeStamp = DateTime.Now;
+        
+
+            ////string Time = Timestamp(DateTime.Now);
+            ////public static string Timestamp(DateTime value)
+            ////{
+            ////    return value.ToString("YYMMDDHHmmss");
+            ////}
+    }
 }

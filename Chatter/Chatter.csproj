@@ -224,6 +224,14 @@
     <Compile Include="Migrations\201610271919264_TryAgainTryAgain.Designer.cs">
       <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610312048535_changedtimeagain.cs" />
+    <Compile Include="Migrations\201610312048535_changedtimeagain.Designer.cs">
+      <DependentUpon>201610312048535_changedtimeagain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610312057219_changedtimeagain2.cs" />
+    <Compile Include="Migrations\201610312057219_changedtimeagain2.Designer.cs">
+      <DependentUpon>201610312057219_changedtimeagain2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ChatterContext.cs" />
@@ -344,6 +352,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610271919264_TryAgainTryAgain.resx">
       <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610312048535_changedtimeagain.resx">
+      <DependentUpon>201610312048535_changedtimeagain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610312057219_changedtimeagain2.resx">
+      <DependentUpon>201610312057219_changedtimeagain2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

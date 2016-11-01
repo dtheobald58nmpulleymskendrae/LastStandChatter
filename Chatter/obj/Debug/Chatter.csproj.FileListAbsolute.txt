@@ -204,3 +204,5 @@ C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\
 C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\Chatter.pdb
 C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\Chatter.Migrations.changedtimeagain.resources
 C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\Chatter.Migrations.changedtimeagain2.resources
+C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\Chatter.Migrations.changedatetime.resources
+C:\Users\msken\Documents\Visual Studio 2015\Projects\chatter1\Chatter\obj\Debug\Chatter.Migrations.unabletofixdatetime.resources

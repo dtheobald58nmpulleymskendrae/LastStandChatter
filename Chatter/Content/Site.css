@@ -19,13 +19,13 @@
     font-size:16px;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
-    background-color:#004080;
+    background-color: lightgrey;
 }
 .navbar-inverse .navbar-brand {
     color: white;
 }
 .navbar-inverse {
-    background-color: #0059b3;
+    background-color: tan;
     border-color: white;
 }
 .form-control.text-box.single-line {
@@ -44,7 +44,8 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Heebo', sans-serif;
-    background-color: #e6f2ff;
+    background-color: beige;
+    
 }
 /* Set padding to keep content from hitting the edges */
 .body-content {

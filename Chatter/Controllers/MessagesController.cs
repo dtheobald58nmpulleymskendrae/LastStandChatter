@@ -36,6 +36,7 @@ namespace Chatter.Controllers
         }
 
         // GET: Messages/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
@@ -46,7 +47,7 @@ namespace Chatter.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Messages,timeStamp")] Message message)
+        public ActionResult Create([Bind(Include = "ID,Messages, Timestamp")] Message message)
         {
             if (ModelState.IsValid)
             {
@@ -59,6 +60,7 @@ namespace Chatter.Controllers
         }
 
         // GET: Messages/Edit/5
+        
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -78,7 +80,7 @@ namespace Chatter.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Messages,timeStamp")] Message message)
+        public ActionResult Edit([Bind(Include = "ID,Messages,Timestamp")] Message message)
         {
             if (ModelState.IsValid)
             {

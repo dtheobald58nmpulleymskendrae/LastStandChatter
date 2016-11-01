@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<Chatter.Models.Message>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Your Chatter";
 }
 
-<h2>Index</h2>
+<h2>@ViewBag.Title</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+   <h2> @Html.ActionLink("Create New", "Create")</h2>
 </p>
 <table class="table">
     <tr>
@@ -15,7 +15,7 @@
             @Html.DisplayNameFor(model => model.Messages)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.timeStamp)
+           Time Posted
         </th>
         <th></th>
     </tr>
@@ -26,7 +26,7 @@
             @Html.DisplayFor(modelItem => item.Messages)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.timeStamp)
+            @Html.DisplayFor(modelItem => item.Timestamp)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
